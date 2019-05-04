@@ -12,10 +12,10 @@ public class BootStrap {
 		System.out.println("Application has started");
 		System.out.println("please enter your name.");
 		Scanner sc = new Scanner(System.in);
-		String name = sc.nextLine();
+		String userName = sc.nextLine();
 
 		UserProcessing up = new UserProcessingImpl();
-		up.welcomeUser(name);
+		up.welcomeUser(userName);
 	}
 
 }
